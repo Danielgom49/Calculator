@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- muestra el sitio correctamente según el dispositivo del usuario -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- muestra el sitio correctamente según el dispositivo del usuario -->
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="../styles/scss/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Ubuntu:wght@300;400&display=swap"
+    rel="stylesheet">
   <title>Reto 2 | Calculator app</title>
 
   <!-- Siéntase libre de eliminar estos estilos o personalizarlos en su propia hoja de estilo.👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body id="body" class="theme1">
   <div class="header">
     <div class='div-title'>
@@ -23,11 +33,11 @@
     <div class='option-theme'>
       <h2 class='title-option'>THEME</h2>
       <form class="label-input">
-          <div>
-            <label for="1" class="btnTheme">1</label>         
-            <label for="2" class="btnTheme">2</label>
-            <label for="3" class="btnTheme">3</label>
-          </div>
+        <div>
+          <label for="1" class="btnTheme">1</label>
+          <label for="2" class="btnTheme">2</label>
+          <label for="3" class="btnTheme">3</label>
+        </div>
         <div class='option'>
           <input id="1" type='radio' name="theme" class="btnTheme" checked>
           <input id="2" type='radio' name="theme" class="btnTheme">
@@ -35,10 +45,10 @@
         </div>
       </form>
     </div>
-  </div> 
+  </div>
 
   <div class='result'>
-    <input id='number-result' disabled >
+    <input id='number-result' disabled>
   </div>
 
   <div class='keys'>
@@ -71,6 +81,7 @@
       <input value="=" type="button" class="button-6">
     </div>
   </div>
-  <script src="../scripts/main.js" type="module"></script>
+  <script src="./scripts/main.js" type="module"></script>
 </body>
+
 </html>
